@@ -23,7 +23,7 @@ def gradient_descent(objective, derivative, bounds, num_iter, alpha):
     x = bounds[:, 0] + np.random.rand(len(bounds)) * (bounds[:, 1] - bounds[:, 0])
 
     for i in range(num_iter):
-        # Step 2: Calculate Derivatve and Take a Step
+        # Step 2: Calculate Derivative and Take a Step
         gradient = derivative(x)
         x = x - alpha * gradient
 
