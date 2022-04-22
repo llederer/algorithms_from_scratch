@@ -6,6 +6,7 @@
 
 ## Supervised Learning
 * K-Nearest Neighbors - knn.py
+* Random Forest - randomforest.py
 
 
 ## Up Next...
